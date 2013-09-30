@@ -1,0 +1,49 @@
+/* line 1, ../sass/_prototype.scss */
+html, body {
+  width: 100%;
+}
+
+/* line 5, ../sass/_prototype.scss */
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-width: 1024px;
+  min-height: 768px;
+  font-family: Arial, Helvetica, 'Helvetica Neue', sans-serif;
+  line-height: 1.4em;
+}
+
+/* line 15, ../sass/_prototype.scss */
+h1, h2, h3, h4, h5, p {
+  padding: 12px;
+}
+
+/* line 19, ../sass/_prototype.scss */
+a {
+  border-radius: 12px;
+  border: none;
+  text-decoration: none;
+}
+
+/* line 25, ../sass/_prototype.scss */
+.viewport {
+  min-width: 0px !important;
+  width: 640px !important;
+}
+
+/* line 30, ../sass/_prototype.scss */
+.mobile-container {
+  width: 640px;
+  height: 1136px;
+  background: whitesmoke;
+}
+/* line 34, ../sass/_prototype.scss */
+.mobile-container img {
+  position: relative;
+}
+
+/* line 39, ../sass/_prototype.scss */
+.list-components {
+  margin-top: -5px;
+}

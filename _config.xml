@@ -1,0 +1,26 @@
+<prototype>
+	<metadata title="Tapigo Survey App">
+		<client name="Survey"/>
+		<version number="1.0" date="08/29/2013"/>
+		<author name="Kate White" email="kate@tapigo.com"/>
+	</metadata>
+	<pages>
+		<page id="survey-list" title="Survey List Screen" description="Survey List screen. This is the main list for surveys." doneness="draft" version="1.0"/>
+		<page id="controller-list" title="Controller List Screen" description="Controller List screen. This is the what all list screens within a survey will look like.  Components of note in this screen: Nav Bar and Tab Bar." doneness="draft" version="1.0"/>
+	</pages>
+	<components>
+		<component id="survey-list-components" title="Survey List Variations" />
+		<component id="controller-navbar-components" title="Navbar Variations" />
+		<component id="tabbar-components" title="Tab Bar Variations" />
+	</components>
+	<display>
+		<property name="markers" value="off"/>
+		<property name="toolbar" value="on"/>
+		<property name="toolbarlocation" value="bottomright"/>
+		<property name="componentcontainer" value="container_12"/>
+		<property name="homepage" value="on"/>
+		<property name="homelinks" value="notes"/>
+		<property name="responsiveviewing" value="off"/>
+		<property name="responsiveviewer" value="off"/>
+	</display>
+</prototype>
