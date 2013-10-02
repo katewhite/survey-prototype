@@ -7,11 +7,13 @@
 	<pages>
 		<page id="survey-list" title="Survey List Screen" description="Survey List screen. This is the main list for surveys." doneness="draft" version="1.0"/>
 		<page id="controller-list" title="Controller List Screen" description="Controller List screen. This is the what all list screens within a survey will look like.  Components of note in this screen: Nav Bar and Tab Bar." doneness="draft" version="1.0"/>
+		<page id="map" title="Map Screen" description="This is the very beginnings of some ideas for the map screens.  I would love to get this into a functional prototype as soon as we settle on a start for the map designs.  I think the design will be driven a lot by actual functionality (zooming, what happens when assets are typed, detail overlay animation, detail overlay style, etc.)." doneness="draft" version="1.0"/>
 	</pages>
 	<components>
 		<component id="survey-list-components" title="Survey List Variations" />
 		<component id="controller-navbar-components" title="Navbar Variations" />
 		<component id="tabbar-components" title="Tab Bar Variations" />
+		<component id="map-components" title="Map Variations" />
 	</components>
 	<display>
 		<property name="markers" value="off"/>

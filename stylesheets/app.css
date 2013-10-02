@@ -47,3 +47,8 @@ a {
 .list-components {
   margin-top: -5px;
 }
+
+/* line 43, ../sass/_prototype.scss */
+.tab-bar {
+  margin-top: -5px;
+}
